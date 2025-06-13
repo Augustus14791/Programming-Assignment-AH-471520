@@ -1,5 +1,5 @@
 def Welcome():
-    print('Welcome trusted servant of the state!\n')
+    print('Welcome trusted servant of the state!\nMy Name is Gerald and I have asked you here to provide us with your wisdom.\nThe People of Barrowlandia are revolting against us in the government.\nWe need you to calm the people, maintain our power, create rest in our kingdom.\n We are relying on YOU!')
     try:
         choice1 = int(input('Choose your title:\n1) Lord Garry\n2) Lady Janet\n3) Sir Derek IV\n'))
     except ValueError:
@@ -8,13 +8,13 @@ def Welcome():
 
     match choice1:
         case 1:
-            print("Greetings Lord Garry!")
+            print("Greetings Lord Garry! I look forward to serving with you")
         case 2:
-            print("Greetings Lady Janet!")
+            print("Greetings Lady Janet! I look forward to serving with you")
         case 3:
-            print("Greetings Sir Derek IV!")
+            print("Greetings Sir Derek IV! I look forward to serving with you")
         case _:
-            print("Invalid choice. Try again")
+            print("Invalid choice you gremlin. Try again")
             Welcome()
 
 Welcome()
