@@ -17,5 +17,5 @@ def Welcome():
             print("Invalid choice you gremlin. Try again")
             Welcome()
 
-Welcome()
-
+def Challenge1():
+    print('It is time for your first challenge!\nThe people of Barrowlandia are facing an economic deppression:\nThe people are hopeless and depressed!\We have 3 choices, choose wisely as the people are relying on you')2
