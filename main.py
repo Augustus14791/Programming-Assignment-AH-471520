@@ -18,7 +18,7 @@ def Welcome():
             return Welcome()
 
     print(f"Greetings {title}! I look forward to serving with you.")
-    Challenge1(title)  # Pass the title to the next function
+    Challenge1(title) 
 
 
 def Challenge1(title):
@@ -44,14 +44,17 @@ def Challenge1(title):
             print("Invalid choice you gremlin. Try again")
             return Challenge1(title)
 
+    Challenge2(title)
+
+
 def Challenge2(title):
-    print(f'\nThe time has arrived for your second opportunity to prove yourself, {title}!\nThe Barrowlandia public transport system is in chaos.\nBuses are late, trains are overcrowded, and one tram has mysteriously ended up in a duck pond')
+    print(f"\nThe time has arrived for your second opportunity to prove yourself, {title}!")
 
     try:
-        choice2 = int(input('Choose your strategy:\n1) Place funding into industry to support jobs\n2) Provide cheap beer to raise spirits\n3) Increase state benefits and universal credit to improve the standard of living\n'))
+        choice = int(input("The Barrowlandia public transport system is in chaos.\nBuses are late, trains are overcrowded, and one tram has mysteriously ended up in a duck pond.\nChoose your strategy:\n1) Invest in electric buses and hire more drivers\n2) Freeze fares temporarily\n3) Launch a public consultation\n"))
     except ValueError:
         print("Please enter a number.")
-        return Challenge1(title)
+        return Challenge2(title)
 
     match choice:
         case 1:
@@ -63,6 +66,8 @@ def Challenge2(title):
         case _:
             print("Invalid choice you gremlin. Try again.")
             return Challenge2(title)
+
+
 
 
 
