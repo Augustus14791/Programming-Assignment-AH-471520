@@ -44,12 +44,8 @@ def Challenge1(title):
             print("Invalid choice you gremlin. Try again")
             return Challenge1(title)
 
-def challenge2
-def Challenge1(title):
-    print(f'\nIt is time for your first challenge, {title}!')
-    print('The people of Barrowlandia are facing an economic depression.')
-    print('The people are hopeless and depressed!')
-    print('We have 3 choices, choose wisely as the people are relying on you.')
+def Challenge2(title):
+    print(f'\nThe time has arrived for your second opportunity to prove yourself, {title}!\nThe Barrowlandia public transport system is in chaos.\nBuses are late, trains are overcrowded, and one tram has mysteriously ended up in a duck pond')
 
     try:
         choice2 = int(input('Choose your strategy:\n1) Place funding into industry to support jobs\n2) Provide cheap beer to raise spirits\n3) Increase state benefits and universal credit to improve the standard of living\n'))
