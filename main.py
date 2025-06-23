@@ -53,16 +53,18 @@ def Challenge2(title):
         print("Please enter a number.")
         return Challenge1(title)
 
-    match choice2:
+    match choice:
         case 1:
-            print("Fantastic choice. The people are starting to realise that there are opportunities out there.\nAlthough there is still work to do, spirits are still low.")
+            print("The new buses are shiny, quiet, and smell faintly of pine. Commuters are cautiously optimistic, though one still insists the duck pond tram was 'a sign'.")
         case 2:
-            print("Well what a nice idea!!\nUnfortunately, the cheap booze caused a riot at the rugby.\n150 people died\nBUT spirits are still high! (Pun Intended)")
+            print("The fare freeze is a hit! People are still late, but at least they’re late for free. One man now rides the bus just for the scenery.")
         case 3:
-            print("Whatever are we paying you for?\nThe people have given up any kind of employment and are becoming couch potatoes.")
+            print("The consultation was thorough. You now have 4,000 opinions, 3 conspiracy theories, and one poem about potholes. Action pending.")
         case _:
-            print("Invalid choice you gremlin. Try again")
-            return Challenge1(title)
+            print("Invalid choice you gremlin. Try again.")
+            return Challenge2(title)
+
+
 
 
 
