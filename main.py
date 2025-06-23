@@ -51,7 +51,14 @@ def Challenge2(title):
     print(f"\nThe time has arrived for your second opportunity to prove yourself, {title}!")
 
     try:
-        choice = int(input("The Barrowlandia public transport system is in chaos.\nBuses are late, trains are overcrowded, and one tram has mysteriously ended up in a duck pond.\nChoose your strategy:\n1) Invest in electric buses and hire more drivers\n2) Freeze fares temporarily\n3) Launch a public consultation\n"))
+        choice = int(input(
+            "The Barrowlandia public transport system is in chaos.\n"
+            "Buses are late, trains are overcrowded, and one tram has mysteriously ended up in a duck pond.\n"
+            "Choose your strategy:\n"
+            "1) Invest in electric buses and hire more drivers\n"
+            "2) Freeze fares temporarily\n"
+            "3) Launch a public consultation\n"
+        ))
     except ValueError:
         print("Please enter a number.")
         return Challenge2(title)
@@ -66,10 +73,100 @@ def Challenge2(title):
         case _:
             print("Invalid choice you gremlin. Try again.")
             return Challenge2(title)
+def Challenge4(title):
+    print(f"\nAnother challenge awaits, {title}.")
+    print("Youth unemployment is rising. Many are disillusioned and dangerously close to forming a ska band.")
+    print("You must act before social media becomes their only career plan.")
+
+    try:
+        choice = int(input("Choose your strategy:\n1) Expand apprenticeships\n2) Fund youth entrepreneurship\n3) Launch a national volunteer service\n"))
+    except ValueError:
+        print("Please enter a number.")
+        return Challenge4(title)
+
+    match choice:
+        case 1:
+            print("Young people are gaining skills. One now calls himself 'Barrowlandia’s Premier Plumber'.")
+        case 2:
+            print("Startups bloom! One teen invents a plant pot that screams when thirsty. Investors are intrigued.")
+        case 3:
+            print("Volunteering surges! One group knits 300 scarves for local llamas. No one knows why, but spirits are high.")
+        case _:
+            print("Invalid choice you gremlin. Try again.")
+            return Challenge4(title)
+
+    Challenge5(title)
 
 
+def Challenge5(title):
+    print(f"\nA crisis at the docks, {title}!")
+    print("Barrowlandia’s shipbuilding industry is facing delays and budget overruns. Workers are frustrated, and the press is circling like seagulls near chips.")
+
+    try:
+        choice = int(input("Choose your strategy:\n1) Increase funding and improve project management\n2) Launch a PR campaign highlighting the industry’s legacy\n3) Invite naval officials for a morale-boosting visit\n"))
+    except ValueError:
+        print("Please enter a number.")
+        return Challenge5(title)
+
+    match choice:
+        case 1:
+            print("The funding helps! Projects get back on track, though one vessel still mysteriously beeps to the tune of 'God Save the King'.")
+        case 2:
+            print("The PR campaign is slick. One ad features a ship majestically sailing past a wind farm. Locals are proud, if slightly confused.")
+        case 3:
+            print("The naval visit boosts morale! One officer is now dating the mayor’s cousin. Unexpected diplomacy!")
+        case _:
+            print("Invalid choice you gremlin. Try again.")
+            return Challenge5(title)
+
+    Challenge6(title)
 
 
+def Challenge6(title):
+    print(f"\nTransport trouble, {title}!")
+    print("A key bridge in Barrowlandia is undergoing repairs, causing traffic chaos. Commuters are late, cyclists are grumpy, and one person tried to cross in a kayak.")
+
+    try:
+        choice = int(input("Choose your strategy:\n1) Introduce a temporary ferry service\n2) Offer free coffee to delayed commuters\n3) Accelerate bridge repairs with night shifts\n"))
+    except ValueError:
+        print("Please enter a number.")
+        return Challenge6(title)
+
+    match choice:
+        case 1:
+            print("The ferry is a hit! One passenger insists on calling it 'The HMS Shortcut'.")
+        case 2:
+            print("Free coffee calms tempers. Productivity drops slightly due to caffeine-fueled storytelling.")
+        case 3:
+            print("Repairs speed up! The night crew includes a man who swears he once fixed Big Ben. Spirits rise.")
+        case _:
+            print("Invalid choice you gremlin. Try again.")
+            return Challenge6(title)
+
+    Challenge7(title)
 
 
+def Challenge7(title):
+    print(f"\nA cultural conundrum, {title}!")
+    print("Barrowlandia’s annual summer festival is at risk of cancellation due to budget cuts and a rogue brass band that refuses to play anything but ABBA.")
 
+    try:
+        choice = int(input("Choose your strategy:\n1) Secure local sponsorships to fund the festival\n2) Rebrand it as a community picnic with music\n3) Let the brass band lead and hope for the best\n"))
+    except ValueError:
+        print("Please enter a number.")
+        return Challenge7(title)
+
+    match choice:
+        case 1:
+            print("Local businesses step up! One bakery sponsors a pie-eating contest. The festival is saved — and delicious.")
+        case 2:
+            print("The picnic is peaceful. The band plays ABBA. People dance. A dog wins the talent show. Success!")
+        case 3:
+            print("The band plays 'Dancing Queen' on loop. The crowd is confused, but oddly united. A new tradition is born.")
+        case _:
+            print("Invalid choice you gremlin. Try again.")
+            return Challenge7(title)
+
+    Challenge8(title)
+
+Welcome()
