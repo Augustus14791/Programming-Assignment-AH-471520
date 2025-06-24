@@ -1,0 +1,102 @@
+commit 1dc49d9e342a817ffeb179053bdbb59a7e1d9a52
+Author: Augustus14791 <gus.housley.520@cranfield.ac.uk>
+Date:   Tue Jun 24 06:59:24 2025 +0000
+
+    All finished
+
+commit 2c23d6375f802b3a8dafb6e54e500587b6fc6a47
+Author: Augustus14791 <gus.housley.520@cranfield.ac.uk>
+Date:   Mon Jun 23 22:42:56 2025 +0000
+
+    A new scoring system has been added. It may need refining but all is well. Copied the removed scenarios back in
+
+commit 9c359352d74c146582927db9fd0227fba67ddd44
+Author: Augustus14791 <gus.housley.520@cranfield.ac.uk>
+Date:   Mon Jun 23 22:16:16 2025 +0000
+
+    Changed to reduce the number of scenarios to a manageable level
+
+commit 5b9e65c8235e1bd91d4723164cea518c26839a12
+Author: Augustus14791 <gus.housley.520@cranfield.ac.uk>
+Date:   Mon Jun 23 21:42:32 2025 +0000
+
+    All scenarios added
+
+commit a335f2fd2e93a1d9f1b298a3db3809bfebe78f0f
+Author: Augustus14791 <gus.housley.520@cranfield.ac.uk>
+Date:   Mon Jun 23 19:32:54 2025 +0000
+
+    added new challenges, same style.Copilot used to create storylines
+
+commit f995be6168b72fd68aef8fbdb611da28fdac34a5
+Author: Augustus14791 <gus.housley.520@cranfield.ac.uk>
+Date:   Mon Jun 23 19:10:33 2025 +0000
+
+    pushed this through copilot to correct my syntax errors
+
+commit 5a67480b1b9501f0e64f7bf0125618963c235a7d
+Author: Augustus14791 <gus.housley.520@cranfield.ac.uk>
+Date:   Mon Jun 23 18:56:17 2025 +0000
+
+    Completed  challenge 3
+    Needs test
+
+commit 18fcb455a214b306790bbfd35f33153bdc1763cb
+Author: Augustus14791 <gus.housley.520@cranfield.ac.uk>
+Date:   Mon Jun 23 18:49:47 2025 +0000
+
+    Adapt the scenario and add line breaks instead of multiple print statements
+
+commit 7d890ed2af497b496e389d4262b88be62e5aaf82
+Author: Augustus14791 <gus.housley.520@cranfield.ac.uk>
+Date:   Mon Jun 23 18:30:55 2025 +0000
+
+    Copied and pasted challenge1 down and now adapting the code to repeat step. Will use MS Copilot to generate a scenario
+
+commit 66d12ecae4a2f918620d71eb7120b64fd00a089f
+Author: Augustus14791 <gus.housley.520@cranfield.ac.uk>
+Date:   Mon Jun 23 18:11:31 2025 +0000
+
+    Copilot utilised to correct syntax errors - incorrect indentation etc
+
+commit 997a81b14b5172b12c36b6787596be641d84e2fe
+Author: Augustus14791 <gus.housley.520@cranfield.ac.uk>
+Date:   Mon Jun 23 18:03:45 2025 +0000
+
+    Added Challenge1
+
+commit cabf9fe87bb18dc914e789bf95b6497701f751a6
+Author: Augustus14791 <gus.housley.520@cranfield.ac.uk>
+Date:   Mon Jun 16 11:52:08 2025 +0000
+
+    Added section 2 basics
+
+commit 40d5224fd71fc5ec13e0b34e3ae40934769a7632
+Author: Augustus14791 <gus.housley.520@cranfield.ac.uk>
+Date:   Fri Jun 13 18:12:21 2025 +0000
+
+    Update
+
+commit c918797dcbb78bdaa06a1dbd6f99d38a9f5bce18
+Author: Augustus14791 <gus.housley.520@cranfield.ac.uk>
+Date:   Thu Jun 12 15:58:58 2025 +0000
+
+    Update
+
+commit 0209f6ce028e7953c827b2f7b3a5f990ddbc9414
+Author: Augustus14791 <gus.housley.520@cranfield.ac.uk>
+Date:   Thu Jun 12 10:10:40 2025 +0000
+
+    Start
+
+commit 8ad2400b7162ba1b4a052f176e0c598d9596afbe
+Author: Augustus14791 <gus.housley.520@cranfield.ac.uk>
+Date:   Thu Jun 12 10:59:56 2025 +0100
+
+    Rename README.md to IgnoreME.md
+
+commit 417c1a16b866c33ef7a08e8028f3699de7037a58
+Author: Augustus14791 <gus.housley.520@cranfield.ac.uk>
+Date:   Mon Jun 9 13:47:36 2025 +0100
+
+    Initial commit
